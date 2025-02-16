@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.usernameso.jpprac.QuizSceneController">
+    <Button textAlignment="CENTER" text="🮤Back"/>
+
+    <VBox alignment="CENTER">
+        <HBox alignment="CENTER">
+            <Text fx:id="kanjiDisplay" scaleX="5" scaleY="5" translateX="85"/>
+
+            <VBox alignment="CENTER" translateY="80">
+                <Text fx:id="kanjiResult" textAlignment="CENTER"/>
+                <TextField fx:id="kanjiInput" alignment="CENTER" onAction="#onResultSubmit" />
+            </VBox>
+        </HBox>
+    </VBox>
+
+
+</VBox>
+

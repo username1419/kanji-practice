@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="jlink" name="jpprac">
+    <output-path>$PROJECT_DIR$/out/artifacts/jpprac</output-path>
+    <properties id="jlink-properties">
+      <options>
+        <option name="compressionLevel" value="2" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="jpprac" />
+      <element id="library" level="project" name="json" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-media:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-media:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:17.0.6" />
+      <element id="library" level="project" name="Maven: org.controlsfx:controlsfx:11.2.1" />
+      <element id="library" level="project" name="Maven: eu.hansolo:toolboxfx:21.0.3" />
+      <element id="library" level="project" name="Maven: eu.hansolo:toolbox:21.0.5" />
+      <element id="library" level="project" name="Maven: eu.hansolo.fx:countries:21.0.3" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:17.0.6" />
+      <element id="library" level="project" name="Maven: org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0" />
+      <element id="library" level="project" name="Maven: com.dlsc.formsfx:formsfx-core:11.6.0" />
+      <element id="library" level="project" name="Maven: eu.hansolo.fx:heatmap:21.0.3" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-web:linux:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-web:17.0.6" />
+      <element id="library" level="project" name="Maven: net.synedra:validatorfx:0.5.0" />
+      <element id="library" level="project" name="Maven: eu.hansolo:tilesfx:21.0.3" />
+    </root>
+  </artifact>
+</component>
