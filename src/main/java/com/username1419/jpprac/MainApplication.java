@@ -1,4 +1,4 @@
-package com.usernameso.jpprac;
+package com.username1419.jpprac;
 
 import javafx.application.Application;
 import javafx.fxml.FXML;

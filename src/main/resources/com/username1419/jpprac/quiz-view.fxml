@@ -10,7 +10,7 @@
 <?import javafx.geometry.Insets?>
 <VBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.usernameso.jpprac.QuizSceneController">
+      fx:controller="com.username1419.jpprac.QuizSceneController">
     <Button textAlignment="CENTER" text="🮤Back"/>
 
     <VBox alignment="CENTER">

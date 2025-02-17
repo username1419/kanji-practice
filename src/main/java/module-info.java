@@ -1,4 +1,4 @@
-module com.usernameso.jpprac {
+module com.username1419.jpprac {
 	requires javafx.controls;
 	requires javafx.fxml;
 	requires javafx.web;
@@ -14,6 +14,6 @@ module com.usernameso.jpprac {
 	requires jdk.compiler;
 	requires java.desktop;
 
-	opens com.usernameso.jpprac to javafx.fxml;
-	exports com.usernameso.jpprac;
+	opens com.username1419.jpprac to javafx.fxml;
+	exports com.username1419.jpprac;
 }

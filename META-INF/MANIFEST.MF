@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: com.usernameso.jpprac.MainApplication
+Main-Class: com.username1419.jpprac.MainApplication

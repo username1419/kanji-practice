@@ -1,4 +1,4 @@
-package com.usernameso.jpprac;
+package com.username1419.jpprac;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -29,7 +29,7 @@ public class QuizSceneController {
 		kanjiList = StartSceneController.getKanjiList();
 		try {
 			StringBuilder sb = new StringBuilder();
-			try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/com/username1419/jpprac/fsrs.json"))) {
+			try (BufferedReader reader = new BufferedReader(new FileReader(MainApplication.class.getResource("fsrs.json").getFile()))) {
 				sb.append(reader.readLine());
 				sb.append(System.lineSeparator());
 			}
@@ -81,13 +81,13 @@ public class QuizSceneController {
 	}
 
 	public static void saveTimeDelay() {
-		try (FileWriter writer = new FileWriter("src/main/resources/com/username1419/jpprac/fsrs.json")) {
+		try (FileWriter writer = new FileWriter(MainApplication.class.getResource("fsrs.json").getFile())) {
 			writer.write(timeDelay.toString());
 		} catch (IOException e) {
-			File file = new File("src/main/resources/com/username1419/jpprac/fsrs.json");
+			File file = new File(MainApplication.class.getResource("fsrs.json").getFile());
 			try {
 				file.createNewFile();
-				FileWriter writer = new FileWriter("src/main/resources/com/username1419/jpprac/fsrs.json");
+				FileWriter writer = new FileWriter(MainApplication.class.getResource("fsrs.json").getFile());
 				writer.write(timeDelay.toString());
 				writer.close();
 			} catch (IOException ex) {

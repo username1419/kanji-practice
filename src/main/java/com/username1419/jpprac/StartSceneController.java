@@ -1,5 +1,6 @@
-package com.usernameso.jpprac;
+package com.username1419.jpprac;
 
+import com.sun.tools.javac.Main;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -8,12 +9,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import org.json.JSONObject;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 public class StartSceneController {
 	public Stage root;
@@ -26,7 +30,7 @@ public class StartSceneController {
 	public static HashMap<Integer, HashMap<String, ArrayList<String>>> getKanjiList() {
 		HashMap<Integer, HashMap<String, ArrayList<String>>> kanjiList = new HashMap<>();
 		StringBuilder sb = new StringBuilder();
-		try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/com/username1419/jpprac/data.json"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader(MainApplication.class.getResource("data.json").getFile()))) {
 			String s = br.readLine();
 			while (s != null) {
 				sb.append(s);
